@@ -1,0 +1,455 @@
+   <!DOCTYPE html>
+<html>
+   <head>
+      <title></title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <style>
+         * {
+         padding: 0px;
+         margin: 0px;
+         }
+         body {
+               background: #f2f0f0
+            }
+         .dropdown{
+         position: relative;
+         display: inline-block;
+         }
+         /*sub-menu*/
+         .dropdown-content{
+         display: none;
+         position: absolute;
+         background-color: #f5f5f5;
+         z-index: 1;
+         list-style: none;
+         }
+         .dropdown:hover .dropdown-content{
+         display: block;
+         }
+         
+         .play{
+         display: flex;
+         justify-content: space-between;
+         }
+         .shop{
+         font-family: Papyrus;
+         font-size: 300%
+         }
+         .dropdown:hover .dropdown-menu{
+            display:block;
+         }
+      
+         #menu-left{
+         background: #613813;
+         }
+         .ol ol li{
+         font-size: 15px
+         }
+         .spa span{
+            font-size: 14px;
+            padding: 0px;
+         }
+         .sk a{
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+         }
+         .sk a:hover{
+            color: #FFC000
+         }
+         
+         .cl p{  
+            color: red;
+            text-align: center;
+         }
+         .cl h3{
+            padding-top: 18px
+         }
+         .cl{
+            display: flex;
+            justify-content: space-between;
+            background: #ababab4d
+         }
+         .bot p{
+            margin: 0px;
+            font-size: 15px;
+         }
+         .footerr ul li a{
+            color: white;
+            text-decoration: none;
+         }
+         .footerr ul li a:hover{
+            color: blue
+         }
+         .footerr ul{
+            list-style-type: none;
+         }
+         .footerr h5{
+          color: #FFC000
+         }
+         .footerr ul li a{
+            color: white;
+            text-decoration: none;
+         }
+         .footerr ul li a:hover{
+            color: blue
+         }
+         .footerr ul{
+            list-style-type: none;
+         }
+         .footerr h5{
+          color: #FFC000
+         }
+      </style>
+   </head>
+   <body>
+       <div class="head">
+         <div class="container-fluid">
+            <div class="play">
+               <div class="col-md-2 pl-0">
+                  <h3 class="shop"><a href="file:///C:/Users/Admin/Desktop/bestwebsite/Trangchur.html" style="color: #000000">SƯƠNG_WATCH</a>
+               </div>
+               <div class="col-md-10 ml-10">
+                  <div class="row">
+                     <div class="col-md-2"></div>
+                     <div class="col-md-1"></div>
+                     <div class="col-md-4 pt-5">
+                        <div class="row dis">
+                           <div class="left" style="float: left;">
+                              <form action="">
+                                 <input type="text" placeholder="Nhập từ khóa tìm kiếm..." size="35px" />
+                              </form>
+                           </div>
+                           <div class="right" style="float: right;">
+                              <button class="btnsearch" style="width: 32px; height: 28px;">
+                              <i class="fas fa-search"></i>
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-2.5 pt-5">
+                        <div class="left" style="float: left; padding-left: 40px">
+                           <img src="call.png" alt="">
+                        </div>
+                        <div class="right" style="float: right;">
+                           <p style="margin: 0px; font-size: 15px; text-align: center;">Hotline</p>
+                           <p style="text-align: center;">0964376239</p>
+                        </div>
+                     </div>
+                     <div class="col-md-2.5  pt-5">
+                        <div class="left" style="float: left; padding-left: 70px">
+                           <button style="width: 32px; height: 30px">
+                           <i class="fas fa-shopping-cart"></i>
+                           </button>
+                        </div>
+                        <div class="right" style="float: right; padding-left: 5px">
+                           <a style="text-decoration: none;" href="">Giỏ hàng</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+    
+      <div class="container">
+         <div class="form-group">
+            <div class="row">
+               <div class="col-md-6">
+                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <img src="https://media.nastygal.com/i/nastygal/agg53457_white_xl?$product_image_category_page_horizontal_filters_landscape_pro$&fmt=webp" alt="..." width="500px">
+                        </div>
+                        <div class="carousel-item">
+                           <img src="https://i1.adis.ws/i/boohooamplience/agg53457_white_xl_1?$product_image_main_mobile$" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                           <img src="https://i1.adis.ws/i/boohooamplience/agg53457_white_xl_2?$product_image_main_mobile$" alt="..." width="500px">
+                        </div>
+                        
+                     </div>
+                     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div>
+                     <h3><a style="text-decoration: none; color: #FFC000" href="">Grow Strings Attached Floral Mini Dress</a></h3>
+                  </div>
+                  <div class="cl">
+                     <div>
+                        <h4>Giá niêm yết</h4>
+                        <p>6.640.000 đ</p>
+                     </div>
+                     <div>
+                        <h3>SALE 5%</h3>
+                     </div>
+                     <div>
+                        <h4>Giá khuyến mãi</h4>
+                        <p>6.320.000 đ</p>
+                     </div>
+                  </div>
+                  <div class="row bot mt-4 mb-3">
+                     <div class="col-md-3">
+                        <p>Đường kính mặt</p>
+                        <b>
+                           <p>40 mm</p>
+                        </b>
+                     </div>
+                     <div class="col-md-3">
+                        <p>Độ chịu nước</p>
+                        <b>
+                           <p>10ATM</p>
+                        </b>
+                     </div>
+                     <div class="col-md-3">
+                        <p>Chất liệu mặt</p>
+                        <b>
+                           <p>Krysterna crystal</p>
+                        </b>
+                     </div>
+                     <div class="col-md-3">
+                        <p>Năng lượng sử dụng</p>
+                        <b>
+                           <p>Quartz/Pin</p>
+                        </b>
+                     </div>
+                  </div>
+                  <div class="row pl-3 mb-1">
+                     <div>
+                        <a href=""><img src="https://www.dangquangwatch.vn/view/pic/KMKM1.jpg" alt=""></a>
+                     </div>
+                     <div class="pl-4" style="color: #FFC000">
+                        <p>Tặng ngay kính Philippe August hoặc Diamond D</p>
+                        <p>Khi mua hóa đơn trị giá trên 5 triệu.</p>
+                     </div>
+                  </div>
+                  <div>
+                     <p style="text-align: center;">Gọi đặt mua: <a href="">1800.6005</a>(8:30 - 21:30)</p>
+                  </div>
+                  <div data-name="tensanpham" data-price="0.5" class="add-to-cart bnt card mb-3" style="padding: 10px; background: #2586D3">
+                     <b style="text-align: center;cursor: pointer;"><span>MUA NGAY</span></b>
+                     <span style="text-align: center;">Giao hàng miễn phí - Thanh toán tại nhà</span>    
+                  </div>
+                  <div class="bnt card" style="padding: 10px; background: #FED700">
+                     <b style="text-align: center;"><span >TRẢ GÓP 0% DỂ DÀNG QUA THẺ</span></b>
+                     <span style="text-align: center;">Visa, Master, JCB</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+       <div class="footer" style="background-image: url(https://i.ytimg.com/vi/AkPGQyCKj7s/maxresdefault.jpg);">
+         <div class="container mb-5">
+            <div class="row">
+               <div class="col-md-2"></div>
+               <div class="col-md-8" style="text-align: center; color: #FFC000">
+                  <h1>Tin tức - Sự kiện</h1>
+                  <p>Tin tức & sự kiện, kiến thức về đồng hồ - kính mát, thông tin khuyến mãi, video clip về đồng hồ đeo tay mới nhất hiện nay, cập nhật liên tục nhanh và đầy đủ ...</p>
+               </div>
+               <div class="col-md-2"></div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="form-group">
+               <div class="row">
+                  <div class="col-md-7" style="padding: 0 40px 0 0;" >
+                     <div>
+                        <img src="https://www.dangquangwatch.vn/lib/ckfinder/images/103678229_3023684284416572_1318405893531154371_o.jpg" width="664" alt="">
+                     </div>
+                     <div>
+                        <a href="" style="color: #FFC000; text-decoration: none;">Đồng hồ Epos Swiss-Nguồn cảm hứng đến từ sự hoàn mỹ</a>
+                     </div>
+                     <hr style="background: #FFC000">
+                     <div class="row">
+                        <div style="padding: 0px 20px 0px 12px; margin: 0px" >
+                           <img src="https://www.dangquangwatch.vn/upload/homeads/82963313_dong-ho-nhap-khau50.jpg" width="160" height="120" alt="">
+                        </div>
+                        <div style="padding: 0px 20px; margin: 0px">
+                           <img src="https://www.dangquangwatch.vn/upload/homeads/1581105307_dong-ho-thuy-sy64.jpg" width="160" height="120" alt="">
+                        </div>
+                        <div style="padding: 0px 20px; margin: 0px">
+                           <img src="https://www.dangquangwatch.vn/upload/homeads/455081688_dong-ho-nu-thoi-trang65.jpg" width="160" height="120" alt="">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-5" style="padding: 0px 0px 0px 20px;">
+                     <div style="margin-bottom: 10px;">
+                        <img src="https://www.dangquangwatch.vn//upload/article/1586976221_103678229_3023684284416572_1318405893531154371_o.jpg" width="475" height="225" alt="">
+                        <a href="" style="color: #FFC000; text-decoration: none;">MUA 2 TÍNH TIỀN 1 - ƯU ĐÃI TẶNG VOUCHER 5 TRIỆU ĐỒNG</a>
+                     </div>
+                     <hr style="background: #FFC000">
+                     <div class="from-group" style="margin-bottom: 10px;">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <a href=""><img src="https://www.dangquangwatch.vn//upload/article/341125332_KT-TN176M.jpg" width="137" height="91" alt=""></a>
+                           </div>
+                           <div class="col-md-8" >
+                              <a href="" style="color: #FFC000; text-decoration: none;">Đăng Quang Watch Thái Nguyên – Giảm giá cực lớn lên đến 25%</a>
+                           </div>
+                        </div>
+                     </div>
+                     <hr style="background: #FFC000">
+                     <div class="form-group">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <a href=""><img src="https://www.dangquangwatch.vn//upload/article/1621593732_95525952_3113472822084377_7617001332678852608_o.jpg" width="137" height="91" alt=""></a>
+                           </div>
+                           <div class="col-md-8">
+                              <a href="" style="color: #FFC000; text-decoration: none;">ĐẤU GIÁ NGAY-GIÁ RẺ VỀ TAY TỪ 40%</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="form-group">
+                        <div class="row">
+                           <div class="col-md-4"></div>
+                           <div class="col-md-4">
+                              <a href="" style="color: #FFC000; text-decoration: none;">Xem tất cả</a>
+                           </div>
+                           <div class="col-md-4"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <hr style="background: #FFC000">
+         <div class="container">
+            <div class="form-group">
+               <div class="row">
+                  <div class="col-md-2"></div>
+                  <div class="col-md-3" style="color: #FFC000">
+                     <div>
+                        <h4>Sương Sương WATCH</h4>
+                     </div>
+                     <div>
+                        <p>ĐẲNG CẤP DOANH NHÂN</p>
+                     </div>
+                  </div>
+                  <div class="col-md-2" style="color: #FFC000">
+                     <h3>ĐẤU GIÁ.<sup>TV</sup> </h3>
+                  </div>
+                  <div class="col-md-3" style="color: #FFC000">
+                     <h4>Sương Sương WATCH</h4>
+                     <p>Thời Trang & Phong Cách</p>
+                  </div>
+                  <div class="col-md-2"></div>
+               </div>
+            </div>
+         </div>
+         <div class="footerr" style="background: #A0522D">
+            <div class="container">
+               <div class="form-group">
+                  <div class="row">
+                     <div class="col-md-3 mt-3">
+                        <ul>
+                           <h5 style="color: #FFC000">THÔNG TIN CHUNG</h5>
+                           <li>
+                              <a href="">Giới thiệu chung</a>
+                           </li>
+                           <li>
+                              <a href="">Kênh tuyển dụng</a>
+                           </li>
+                           <li>
+                              <a href="">Tin tức - Sự kiện</a>
+                           </li>
+                           <li>
+                              <a href="">Hệ thống cửa hàng</a>
+                           </li>
+                           <li>
+                              <a href="">Cộng đồng khách hàng</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="col-md-3 mt-3">
+                        <ul>
+                           <h5 style="color: #FFC000">HỖ TRỢ KHÁCH HÀNG</h5>
+                           <li>
+                              <a href="">1. Chính sách bảo hành</a>  
+                           </li>
+                           <li>
+                              <a href="">2. Chính sách đổi hàng</a>
+                           </li>
+                           <li>
+                              <a href="">3. Chính sách bảo mật</a>
+                           </li>
+                           <li>
+                              <a href="">4. Chính sách vận chuyển</a>
+                           </li>
+                           <li>
+                              <a href="">5. Hướng dẫn thanh toán</a>
+                           </li>
+                           <li>
+                              <a href="">6. Hướng dẫn mua hàng</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="col-md-3 mt-3">
+                        <ul>
+                           <h5 style="color: #FFC000">HƯỚNG DẪN & TƯ VẤN</h5>
+                           <li>
+                              <a href="">Góc Hỏi đáp</a>
+                           </li>
+                           <li>
+                              <a href="">Chứng nhận thương hiệu</a>
+                           </li>
+                           <li>
+                              <a href="">Hệ thống cửa hàng</a>
+                           </li>
+                           <li>
+                              <a href="">Tin tức - Sự kiện</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="col-md-3 mt-3">
+                        <div class="form-group">
+                           <div class="row">
+                              <h5 style="padding: 0 0 10px 0; color: #FFC000">KẾT NỐI VỚI CHÚNG TÔI</h5>
+                              <a href="https://www.facebook.com/hungH24"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png" width="60px" height="40px" style="padding:0px 10px 0px 0px" alt=""></a>
+                              <a href=""><img src="https://pmcdeadline2.files.wordpress.com/2016/09/twitter-logo.jpg" width="60px" height="40px" style="padding:0px 10px 0px 0px"  alt=""></a>
+                              <a href=""><img src="https://i.pinimg.com/originals/de/1c/91/de1c91788be0d791135736995109272a.png" width="60px" height="40px" style="padding:0px 10px 0px 0px"  alt=""></a>
+                              <a href=""><img src="https://www.engage.it/wp-content/uploads/2014/07/Linkedin-Logo-e1406137001949.png" width="50px" height="40px" alt=""></a>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div>
+                              <img src="https://www.dangquangwatch.vn/view/css/icon/bct2.png" alt="">
+                           </div>
+                           <div style="padding-left: 10px">
+                              <img src="https://www.dangquangwatch.vn/view/css/icon/bct.png" alt="">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="footerrr" style="background: #140B04">
+               <div class="container">
+                  <div style="text-align: center;">
+                     <div>
+                        <b><a href="" style="color: #FFC000">CÔNG TY CỔ PHẦN TRỰC TUYẾN Sương Sương Watch</a></b>
+                     </div>
+                     <div>
+                        <p style="padding: 0px;margin: 0px; color: white">VPGD: Số 55 Nguyễn Văn Linh – Hải Châu – TP. Đà Nẵng - Email: sieuthiSươngSương@gmail.com</p>
+                     </div>
+                     <div>
+                        <p style="color: white">Giấy CNĐKKD và MSDN số: 0104938104 đăng ký lần đầu do Sở Kế hoạch và Đầu tư Thành phố Đà Nẵng cấp ngày 07/10/2010</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+     
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="main.js"></script>
+   </body>
+</html>

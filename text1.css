@@ -1,0 +1,101 @@
+.head{
+	background-color:#4d3319;
+	width: 100%;
+	height: 100px;
+	display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.TENSHOP{
+	 font-family: Papyrus;
+      width: 30%; 
+
+}
+.DK{
+	color: #fff;
+
+}
+
+#mainleft{
+	background-color: 
+}
+.hero-image-right{
+  background-image: url("https://cdn3.dhht.vn/wp-content/uploads/2016/07/dong-ho-dep-cho-nam-1.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text-right {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  background-color: white;
+}
+.hero-image-left {
+  background-image: url("https://st.quantrimang.com/photos/image/2019/03/21/danh-gia-dong-ho-thoi-trang-julius-co-nen-mua-hay-khong.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text-left {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-10%, -50%);
+  color:  #000000;
+  background-color: white;
+}
+.card-text{
+	color: red;
+}
+ 
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 400px;
+    height: 400px;
+  }
+  #danhmuc{
+  	color: #00000;
+  	font-family: Brush Script MT;
+  }
+  .fotter{
+  	background-color: #c68c53;
+  	
+    justify-content: space-between;
+   
+    
+  }
+  #Ten{
+  	text-align: center;
+  	 font-family: Papyrus;
+
+  }
+  #TT{
+  	background-color: #330d00;
+  }
+  #TC{
+  	color: #cccc00;
+  }
+  .footerr ul li a{
+         color: white;
+         text-decoration: none;
+         }
+         .footerr ul li a:hover{
+         color: blue
+         }
+         .footer ul{
+         list-style-type: none;
+         }
